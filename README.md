@@ -1,5 +1,5 @@
 # hashtags
-Plotting hashtags
+Plotting hashtags with Tidy Tweet
 
 install.packages("data.table")
 library(data.table)
