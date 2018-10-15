@@ -10,11 +10,11 @@ data <- fread("processed_2700_2016_sockpuppet.csv")
 
 # :::::::#blacklivesmatter:::::::
 
-data2 <- data[grepl("#blacklivesmatter\\b|#BlackLivesMatter\\b|#Blacklivesmatter\\b", data$tweet), ] 
 # subset a dataset that appears above hashtags in tweet
+data2 <- data[grepl("#blacklivesmatter\\b|#BlackLivesMatter\\b|#Blacklivesmatter\\b", data$tweet), ] 
+
 
 # plot
-
 data2$`created at` <- format(as.POSIXct(data2$`created at`, format='%m/%d/%Y %H:%M'), format='%m/%d/%Y')
 
 #1
