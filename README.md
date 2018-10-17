@@ -8,7 +8,6 @@ getwd()
 setwd("directory")
 data <- fread("processed_2700_2016_sockpuppet.csv")
 ```
-## :::::::#blacklivesmatter:::::::
 
 ###### subset a dataset that appears above hashtags in tweet
 ```
