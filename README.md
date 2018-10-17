@@ -1,5 +1,6 @@
-# hashtags
-## Plotting hashtags co-occurence using tidy tweet
+# hashtag explorations
+
+## Preliminary hashtag analysis for the #blacklivesmatter
 
 ```
 library(data.table)
